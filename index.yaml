@@ -3,6 +3,16 @@ entries:
   webserver:
   - apiVersion: v2
     appVersion: alpine
+    created: "2026-03-01T14:58:21.322770698Z"
+    description: A basic webserver to test ingresses
+    digest: fba75f41c1d8b7249f165f59cb38995f7777e7ff1d8160d4cb29146b0f476d74
+    name: webserver
+    type: application
+    urls:
+    - https://github.com/hongshaoyang/helm-charts/releases/download/webserver-0.1.2/webserver-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: alpine
     created: "2026-03-01T09:28:44.804028868Z"
     description: A basic webserver to test ingresses
     digest: c9ba37803f9741ab97b820086d153518a15684ae1d9c4611a3414b822a26fb68
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/hongshaoyang/helm-charts/releases/download/webserver-0.1.1/webserver-0.1.1.tgz
     version: 0.1.1
-generated: "2026-03-01T09:28:44.804033507Z"
+generated: "2026-03-01T14:58:21.322795689Z"
