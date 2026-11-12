@@ -2,5 +2,8 @@ apiVersion: v2
 name: webserver
 description: A basic webserver to test ingresses
 type: application
-version: 0.1.3
+version: 0.1.4
 appVersion: "alpine"
+maintainers:
+- email: hongsy2006@gmail.com
+  name: "Hong Shao Yang"
