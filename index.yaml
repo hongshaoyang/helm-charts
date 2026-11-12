@@ -1,6 +1,36 @@
 apiVersion: v1
 entries:
+  http-echo:
+  - apiVersion: v2
+    appVersion: 0.2.4
+    created: "2026-11-12T04:15:12.666809774Z"
+    description: A Helm chart for the Hashicorp HTTP Echo application
+    digest: cebe0d2210def2526e9bc95a5903f5a0d8054aeb181ca46238bba8387e574035
+    keywords:
+    - echo
+    - http-echo
+    maintainers:
+    - email: hongsy2006@gmail.com
+      name: Hong Shao Yang
+    name: http-echo
+    type: application
+    urls:
+    - https://github.com/hongshaoyang/helm-charts/releases/download/http-echo-0.3.5/http-echo-0.3.5.tgz
+    version: 0.3.5
   webserver:
+  - apiVersion: v2
+    appVersion: alpine
+    created: "2026-11-12T04:15:12.792517325Z"
+    description: A basic webserver to test ingresses
+    digest: 382eadba0fa06e54b8e97edc45a18b4b42f56d434d5697d2c51640bbe4d731f6
+    maintainers:
+    - email: hongsy2006@gmail.com
+      name: Hong Shao Yang
+    name: webserver
+    type: application
+    urls:
+    - https://github.com/hongshaoyang/helm-charts/releases/download/webserver-0.1.4/webserver-0.1.4.tgz
+    version: 0.1.4
   - apiVersion: v2
     appVersion: alpine
     created: "2026-03-02T07:54:00.732328727Z"
@@ -31,4 +61,4 @@ entries:
     urls:
     - https://github.com/hongshaoyang/helm-charts/releases/download/webserver-0.1.1/webserver-0.1.1.tgz
     version: 0.1.1
-generated: "2026-03-02T07:54:00.73234623Z"
+generated: "2026-11-12T04:15:12.792530875Z"
