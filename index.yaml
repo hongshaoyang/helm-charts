@@ -2,6 +2,22 @@ apiVersion: v1
 entries:
   http-echo:
   - apiVersion: v2
+    appVersion: latest
+    created: "2026-11-14T11:24:51.472151784Z"
+    description: A Helm chart for the Hashicorp HTTP Echo application
+    digest: caca569adc63522a1db8c913cc75492523e8dc4ce03dbb27a65555fad89af396
+    keywords:
+    - echo
+    - http-echo
+    maintainers:
+    - email: hongsy2006@gmail.com
+      name: Hong Shao Yang
+    name: http-echo
+    type: application
+    urls:
+    - https://github.com/hongshaoyang/helm-charts/releases/download/http-echo-0.3.6/http-echo-0.3.6.tgz
+    version: 0.3.6
+  - apiVersion: v2
     appVersion: 0.2.4
     created: "2026-11-12T04:15:12.666809774Z"
     description: A Helm chart for the Hashicorp HTTP Echo application
@@ -61,4 +77,4 @@ entries:
     urls:
     - https://github.com/hongshaoyang/helm-charts/releases/download/webserver-0.1.1/webserver-0.1.1.tgz
     version: 0.1.1
-generated: "2026-11-12T04:15:12.792530875Z"
+generated: "2026-11-14T11:24:51.472168118Z"
